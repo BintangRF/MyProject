@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+
+    <!-- FONT STYLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Nunito:wght@300;900&family=Offside&display=swap"
+      rel="stylesheet" />
+
+    <!-- CSS sendiri -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Website 2</title>
+  </head>
+  <body>
+    <!-- *NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light shadow fixed-top"
+      style="background-color: #38a169; z-index: 9999">
+      <div class="container">
+        <h1>Eco<span>H</span>UB</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#beranda"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produk">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#layanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang-kami">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2 navigasi"
+              type="search"
+              placeholder="Search"
+              aria-label="Search" />
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- *AKHIR NAVBAR -->
+
+    <!-- *BERANDA -->
+    <section id="beranda">
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide position-relative"
+        data-bs-ride="carousel">
+        <div class="carousel-inner" style="height: 100vh">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img
+              src="img/carousel/carousel1.jpg"
+              class="d-block w-100"
+              alt="carousel1" />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="img/carousel/carousel2.jpg"
+              class="d-block w-100"
+              alt="carousel2" />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="img/carousel/carousel3.jpg"
+              class="d-block w-100"
+              alt="carousel3" />
+          </div>
+        </div>
+      </div>
+      <div class="text-overlay">
+        <div class="kata">
+          <h3 class="beranda">
+            Transforming the World, One <span>Green</span> Step at a Time
+          </h3>
+          <h4 class="beranda">SIGN UP</h4>
+          <a href="">Or Login</a>
+        </div>
+      </div>
+    </section>
+    <!-- *AKHIR BERANDA -->
+
+    <!-- *Produk -->
+    <section id="produk">
+      <div class="container">
+        <div class="row">
+          <h2>PRODUK</h2>
+        </div>
+      </div>
+      <div class="isi-produk">
+        <div class="row align-items-center">
+          <div class="col">
+            <div class="produk-box">
+              <h4 class="produk-name">Produk 1</h4>
+              <a href="#" class="btn-produk" style="background-color: #38a169"
+                >Pesan</a
+              >
+            </div>
+          </div>
+          <div class="col">
+            <div class="produk-box">
+              <h4 class="produk-name">Produk 1</h4>
+              <a href="#" class="btn-produk" style="background-color: #38a169"
+                >Pesan</a
+              >
+            </div>
+          </div>
+          <div class="col">
+            <div class="produk-box">
+              <h4 class="produk-name">Produk 1</h4>
+              <a href="#" class="btn-produk" style="background-color: #38a169"
+                >Pesan</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *AKHIR Produk -->
+
+    <!-- *LAYANAN -->
+    <section id="layanan" style="background-image: url(img/bg.jpg); height: 680px;">
+      <div class="container-fluid" >
+        <h2 class="layanan">LAYANAN</h2>
+        <div class="kotak">
+          <div class="isi-layanan">
+            <h3 class="layanan">Pemulihan dan Daur Ulang</h3>
+            <p class="layanan">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus in repudiandae libero quae quas corporis quia eum beatae recusandae quisquam?
+            </p>
+            <a href="">Read More...</a>
+          </div> 
+          <p class="arah">
+          <iconify-icon icon="mingcute:arrow-left-fill" width="40" class="panah"></iconify-icon>
+          1/4
+          <iconify-icon icon="mingcute:arrow-right-fill" width="40" class="panah1"></iconify-icon>
+        </p>
+        </div>  
+          <img src="img/web/web1.jpg" alt="web1" class="gambar-layanan">      
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *AKHIR LAYANAN -->
+
+    <!-- *TENTANG KAMI -->
+<section id="tentang-kami" style="margin-top: 100px;">
+  <div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+      <img src="img/web/web2.jpg" class="img-thumbnail float-start shadow" alt="web2">
+    </div>
+    <div class="col ">
+      <h3 class="text-center">TENTANG KAMI</h3>
+      <p class="tentang-kami ps-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere adipisci obcaecati fugiat explicabo, provident non aliquid culpa dolor architecto odit earum, consequuntur odio hic aspernatur possimus vel velit quis quae ad! Rerum, neque quia animi adipisci eum quae a culpa natus? Ad molestias suscipit necessitatibus ex quo repudiandae fuga illo reiciendis, a vel aperiam perferendis, dolorem optio reprehenderit eaque quibusdam.</p>
+    </div>
+  </div>
+</div>
+</section>
+<!-- *AKHIR TENTANG KAMI -->
+
+<!-- *KONTAK -->
+<section id="kontak">
+  <div class="container-fluid p-0">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#38a169" fill-opacity="1" d="M0,32L40,80C80,128,160,224,240,229.3C320,235,400,149,480,133.3C560,117,640,171,720,208C800,245,880,267,960,240C1040,213,1120,139,1200,101.3C1280,64,1360,64,1400,64L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z" ></path></svg>
+  <div class="kontak-hijau">
+    <div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+      <div class="kotak-putih">
+        <h4 class="text-center text-wrap komentar p-5" >TULIS KOMENTAR</h4>
+        <form class="p-3">
+  <div class="mb-3">
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+  <textarea class="form-control" placeholder="Komentar" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+  <button type="submit" class="btn btn-primary rounded-pill" style="width: 340px; background-color: #38a169;">Submit</button>
+</form>
+      </div>
+    </div>
+    <div class="col pe-5">
+      <h3 style="width: 400px;">HUBUNGI KAMI JIKA ANDA MEMILIKI REQUEST</h3>
+      <p style="width: 500px; text-align: justify;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sapiente omnis eaque nesciunt voluptate nulla dignissimos non at aliquid quod, reprehenderit delectus, ullam repudiandae aspernatur illum veniam necessitatibus tenetur cupiditate ad quo voluptatum ut quibusdam deleniti! Fugit, soluta aut? Nobis a laboriosam quae temporibus distinctio nihil asperiores nulla numquam commodi?</p>
+    </div>
+  </div>
+  <br><hr style="border: 1px solid #f8f9fa;">
+  <p class="text-center" style="font-size: 10px;">Copyright © 2023 MyFirstWebsite by BintangRF</p>
+  <h1 class="text-center">Eco<span>H</span>UB</h1>
+</div>
+  </div>
+  </div>
+  
+</section>
+<!-- *AKHIR KONTAK -->
+
+    <!-- *SCRIPT BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".produk-box"), {
+        max: 25,
+        speed: 400,
+      });
+
+      //It also supports NodeList
+      VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>

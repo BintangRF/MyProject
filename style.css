@@ -1,0 +1,228 @@
+body {
+  background-color: #f8f9fa;
+}
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  text-align: center;
+}
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+}
+a {
+  font-family: "Nunito", sans-serif;
+}
+/* *NAVBAR */
+.navbar-light .navbar-nav .nav-link.active {
+  font-family: "Nunito", sans-serif;
+  color: #1e1e1e;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Nunito", sans-serif;
+  color: #1e1e1e;
+}
+.navbar-light .navbar-nav .nav-link.active:hover {
+  color: #f3c34a;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f3c34a;
+}
+a.navbar-brand {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+span {
+  color: #f3c34a;
+}
+
+input.navigasi {
+  background-color: #f3c34a;
+  border-radius: 50px;
+}
+/* *AKHIR NAVBAR */
+
+/* *BERANDA */
+.kata {
+  margin-left: 50px;
+}
+.kata h4,
+a {
+  font-family: "Nunito", sans-serif;
+}
+h3.beranda {
+  font-family: "Offside", cursive;
+  font-weight: bold;
+  font-size: 70px;
+  margin-top: 100px;
+  margin-right: 40px;
+}
+h3.beranda span {
+  color: #38a169;
+}
+div.text-overlay {
+  position: absolute;
+  top: 0px;
+  left: 120px;
+  background-color: rgba(248, 249, 250, 0.8);
+  width: 600px;
+  height: 617px;
+}
+h4.beranda {
+  background-color: #38a169;
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 0 50px 0 50px;
+  font-weight: 1000;
+}
+a {
+  color: #2b6cb0;
+}
+
+/* *AKHIR NAVBAR */
+
+/* *PRODUK */
+#produk {
+  margin-top: 32px;
+}
+
+h4.produk-name {
+  font-family: "Ninuto", sans-serif;
+}
+.isi-produk {
+  background-color: #d9d9d9;
+  margin-top: 10px;
+  padding: 100px 20px 100px 20px;
+}
+.produk-box {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-image: url(img/produk/produk1.jpg);
+  box-shadow: 0px 2px 5px#1e1e1e;
+  transform-style: preserve-3d;
+}
+.produk-name {
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transition: 0.5s;
+  position: absolute;
+  top: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  width: 100%;
+  transform: translate3d(0, 0, 50px);
+}
+.produk-box:hover .produk-name {
+  top: 20px;
+  opacity: 1;
+}
+.btn-produk {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  transform: translate(0, 0);
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #1e1e1e;
+  text-decoration: none;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translate3d(0, 0, 50px);
+}
+.btn-produk:hover {
+  color: #f3c34a;
+}
+.produk-box:hover .btn-produk {
+  bottom: 20px;
+  opacity: 1;
+}
+/* *AKHIR PRODUK */
+
+/* *LAYANAN */
+h2.layanan {
+  margin-top: 30px;
+  color: #f8f9fa;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.kotak {
+  background-color: #d9d9d9;
+  width: 896px;
+  height: 400px;
+  margin: auto;
+  margin-left: 150px;
+  margin-top: 20px;
+  text-align: left;
+  position: relative;
+}
+h3.layanan {
+  font-size: 26px;
+}
+.isi-layanan {
+  width: 400px;
+  text-align: justify;
+  padding: 60px 0px 20px 50px;
+}
+.next {
+  display: inline;
+}
+.panah {
+  padding-left: 100px;
+  padding-right: 50px;
+}
+.panah1 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.gambar-layanan {
+  position: absolute;
+  left: 600px;
+  transform: translateY(-410px);
+}
+p.arah {
+  display: flex;
+  align-items: center;
+}
+/* *AKHIR LAYANAN */
+
+/* *LAYANAN */
+p.tentang-kami {
+  text-align: justify;
+}
+.img-thumbnail {
+  border-color: #38a169;
+}
+/* *AKHIR LAYANAN */
+
+/* *TENTANG KAMI */
+path {
+  z-index: 100;
+  text-shadow: 10px 10px 1px black;
+}
+.kontak-hijau {
+  background-color: #38a169;
+  width: 1349px;
+  height: 700px;
+}
+.kotak-putih {
+  width: 373px;
+  height: 554px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
